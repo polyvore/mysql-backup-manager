@@ -1,0 +1,6 @@
+[mysql-backup-manager]
+s3cmdconf=/root/s3cmd.conf
+password=ENCRYPTIONPW
+s3path=s3://bucket/path
+dbtype=mysql
+deploytemplatedir=/usr/local/share/mysql-deploy-templates
